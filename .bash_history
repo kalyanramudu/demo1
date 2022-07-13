@@ -109,3 +109,8 @@ sudo vi simpleplaybook.yml
 git add .
 git commit -m "kalyan"
 git push https://github.com/kalyanramudu/demo1.git
+ls -ltra | grep .ssh
+cd .ssh
+ls -ltr
+cat id_rsa.pub
+sudo su -

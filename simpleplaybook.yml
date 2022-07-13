@@ -3,7 +3,7 @@
   become: true
 
   tasks:
-    - name: ensure repository key is installed
+   - name: ensure repository key is installed
       apt_key:
         url: https://download.docker.com/linux/ubuntu/gpg
         state: present
@@ -29,3 +29,8 @@
       command: chdir=/home/kalyan/dockerdir docker build -t myimage:latest .
     - name: run the dockerimage
       command: docker run -itd -P myimage:latest
+ when: any_errors_fatal: true
+    
+    - name: if Job fails, delete the running container on Test Server
+      command: docker rm -f $(docker ps -aq)
+        

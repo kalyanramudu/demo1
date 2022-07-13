@@ -48,3 +48,11 @@ git commit - m "With dockerfile"
 git commit -m "With dockerfile"
 docker push https://github.com/kalyanramudu/demo1.git
 git push https://github.com/kalyanramudu/demo1.git
+ls -ltr
+cd projCert
+ls -ltr
+cd ..
+ls -ltr
+rmdir projCert
+rmdir -f projCert
+rm -r projCert

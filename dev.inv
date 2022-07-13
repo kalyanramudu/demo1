@@ -1,0 +1,2 @@
+[webserver]
+172.31.81.42 ansible_user=kalyan

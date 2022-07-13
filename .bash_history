@@ -33,3 +33,18 @@ git pull https://github.com/kalyanramudu/My.git
 git push https://github.com/kalyanramudu/My.git
 git push https://github.com/kalyanramudu/demo1.git
 ansible all -m ping
+ls -ltr
+sudo vi simpleplaybook.yml
+git push https://github.com/kalyanramudu/demo1.git
+git status
+git add .
+git commit -m "updated yml"
+git push https://github.com/kalyanramudu/demo1.git
+ls -ltr
+vi Dockerfile
+git clone https://github.com/edureka-devops/projCert.git
+git add .
+git commit - m "With dockerfile"
+git commit -m "With dockerfile"
+docker push https://github.com/kalyanramudu/demo1.git
+git push https://github.com/kalyanramudu/demo1.git

@@ -29,5 +29,3 @@
       command: chdir=/home/kalyan/dockerdir docker build -t myimage:latest .
     - name: run the dockerimage
       command: docker run -itd -P myimage:latest
-    - name: If Job 3 fails, delete the running container on Test Server
-      command: docker rm -f $(docker ps -a -q)

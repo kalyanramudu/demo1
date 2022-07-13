@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1657722753,,"wq!"
+|2,0,1657723270,,"wq!"
 :q!
 |2,0,1657702639,,"q!"
 
@@ -27,34 +27,40 @@
 # Registers:
 
 # File marks:
-'0  33  45  ~/simpleplaybook.yml
-|4,48,33,45,1657722753,"~/simpleplaybook.yml"
-'1  29  43  ~/simpleplaybook.yml
-|4,49,29,43,1657707011,"~/simpleplaybook.yml"
+'0  31  47  ~/simpleplaybook.yml
+|4,48,31,47,1657723270,"~/simpleplaybook.yml"
+'1  33  45  ~/simpleplaybook.yml
+|4,49,33,45,1657722753,"~/simpleplaybook.yml"
 '2  29  43  ~/simpleplaybook.yml
 |4,50,29,43,1657707011,"~/simpleplaybook.yml"
-'3  27  12  ~/simpleplaybook.yml
-|4,51,27,12,1657702639,"~/simpleplaybook.yml"
-'4  27  12  ~/simpleplaybook.yml
-|4,52,27,12,1657702639,"~/simpleplaybook.yml"
-'5  27  12  ~/simpleplaybook.yml
-|4,53,27,12,1657702639,"~/simpleplaybook.yml"
+'3  29  43  ~/simpleplaybook.yml
+|4,51,29,43,1657707011,"~/simpleplaybook.yml"
+'4  29  43  ~/simpleplaybook.yml
+|4,52,29,43,1657707011,"~/simpleplaybook.yml"
+'5  29  43  ~/simpleplaybook.yml
+|4,53,29,43,1657707011,"~/simpleplaybook.yml"
 '6  27  12  ~/simpleplaybook.yml
 |4,54,27,12,1657702639,"~/simpleplaybook.yml"
-'7  27  58  ~/simpleplaybook.yml
-|4,55,27,58,1657700468,"~/simpleplaybook.yml"
-'8  27  58  ~/simpleplaybook.yml
-|4,56,27,58,1657700468,"~/simpleplaybook.yml"
-'9  27  58  ~/simpleplaybook.yml
-|4,57,27,58,1657700468,"~/simpleplaybook.yml"
+'7  27  12  ~/simpleplaybook.yml
+|4,55,27,12,1657702639,"~/simpleplaybook.yml"
+'8  27  12  ~/simpleplaybook.yml
+|4,56,27,12,1657702639,"~/simpleplaybook.yml"
+'9  27  12  ~/simpleplaybook.yml
+|4,57,27,12,1657702639,"~/simpleplaybook.yml"
 
 # Jumplist (newest first):
+-'  31  47  ~/simpleplaybook.yml
+|4,39,31,47,1657723270,"~/simpleplaybook.yml"
 -'  33  45  ~/simpleplaybook.yml
 |4,39,33,45,1657722753,"~/simpleplaybook.yml"
 -'  29  43  ~/simpleplaybook.yml
 |4,39,29,43,1657722644,"~/simpleplaybook.yml"
 -'  29  43  ~/simpleplaybook.yml
+|4,39,29,43,1657722644,"~/simpleplaybook.yml"
+-'  29  43  ~/simpleplaybook.yml
 |4,39,29,43,1657707011,"~/simpleplaybook.yml"
+-'  27  12  ~/simpleplaybook.yml
+|4,39,27,12,1657706909,"~/simpleplaybook.yml"
 -'  27  12  ~/simpleplaybook.yml
 |4,39,27,12,1657706909,"~/simpleplaybook.yml"
 -'  27  12  ~/simpleplaybook.yml
@@ -71,6 +77,8 @@
 |4,39,1,0,1657700314,"~/simpleplaybook.yml"
 -'  1  0  ~/simpleplaybook.yml
 |4,39,1,0,1657700314,"~/simpleplaybook.yml"
+-'  1  0  ~/simpleplaybook.yml
+|4,39,1,0,1657700314,"~/simpleplaybook.yml"
 -'  9  26  ~/Dockerfile
 |4,39,9,26,1657695758,"~/Dockerfile"
 -'  9  26  ~/Dockerfile
@@ -103,6 +111,70 @@
 |4,39,9,26,1657695758,"~/Dockerfile"
 -'  9  26  ~/Dockerfile
 |4,39,9,26,1657695758,"~/Dockerfile"
+-'  9  26  ~/Dockerfile
+|4,39,9,26,1657695758,"~/Dockerfile"
+-'  9  26  ~/Dockerfile
+|4,39,9,26,1657695758,"~/Dockerfile"
+-'  9  26  ~/Dockerfile
+|4,39,9,26,1657695758,"~/Dockerfile"
+-'  9  26  ~/Dockerfile
+|4,39,9,26,1657695758,"~/Dockerfile"
+-'  9  26  ~/Dockerfile
+|4,39,9,26,1657695758,"~/Dockerfile"
+-'  9  26  ~/Dockerfile
+|4,39,9,26,1657695758,"~/Dockerfile"
+-'  9  26  ~/Dockerfile
+|4,39,9,26,1657695758,"~/Dockerfile"
+-'  9  26  ~/Dockerfile
+|4,39,9,26,1657695758,"~/Dockerfile"
+-'  9  26  ~/Dockerfile
+|4,39,9,26,1657695758,"~/Dockerfile"
+-'  9  26  ~/Dockerfile
+|4,39,9,26,1657695758,"~/Dockerfile"
+-'  9  26  ~/Dockerfile
+|4,39,9,26,1657695758,"~/Dockerfile"
+-'  9  26  ~/Dockerfile
+|4,39,9,26,1657695758,"~/Dockerfile"
+-'  9  26  ~/Dockerfile
+|4,39,9,26,1657695758,"~/Dockerfile"
+-'  9  26  ~/Dockerfile
+|4,39,9,26,1657695758,"~/Dockerfile"
+-'  9  26  ~/Dockerfile
+|4,39,9,26,1657695758,"~/Dockerfile"
+-'  9  26  ~/Dockerfile
+|4,39,9,26,1657695758,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1657695729,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1657695729,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1657695729,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1657695729,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1657695729,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1657695729,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1657695729,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1657695729,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1657695729,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1657695729,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1657695729,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1657695729,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1657695729,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1657695729,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1657695729,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1657695729,"~/Dockerfile"
 -'  1  0  ~/Dockerfile
 |4,39,1,0,1657695729,"~/Dockerfile"
 -'  1  0  ~/Dockerfile
@@ -139,15 +211,18 @@
 # History of marks within files (newest to oldest):
 
 > ~/simpleplaybook.yml
-	*	1657722744	0
-	"	33	45
-	^	33	46
-	.	33	45
+	*	1657723263	0
+	"	31	47
+	^	31	48
+	.	32	0
 	+	27	84
 	+	29	43
-	+	33	14
-	+	32	70
-	+	33	45
+	+	31	117
+	+	31	118
+	+	31	148
+	+	31	60
+	+	31	103
+	+	32	0
 
 > ~/Dockerfile
 	*	1657695755	0

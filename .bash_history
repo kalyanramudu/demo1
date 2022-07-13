@@ -56,3 +56,56 @@ ls -ltr
 rmdir projCert
 rmdir -f projCert
 rm -r projCert
+ls -ltr
+sudo vi simpleplaybook.yml
+mv DockerFile Dockerfile
+git add .
+git commit -m "final"
+sudo vi simpleplaybook.yml
+git add
+git add .
+git commit -m "final2"
+gitpush https://github.com/kalyanramudu/demo1.git
+kalyanramudu
+git push https://github.com/kalyanramudu/demo1.git
+ls -ltr
+vi simpleplaybook.yml
+git add .
+git commit -m "kalyan"
+git push https://github.com/kalyanramudu/demo1.git
+ls -ltr
+rm -rf projCert
+ls -ltr
+git add .
+git commit -m "delete"
+git push https://github.com/kalyanramudu/demo1.git
+ls -ltr
+git clone https://github.com/edureka-devops/projCert.git
+ls -ltr
+cd projCert
+ls -ltr
+cd ..
+ls -ltr
+pwd
+cd projCert
+ls -ltr
+mv website /home/kalyan
+ls -ltr
+cd ..
+ls -ltr
+rm projCert
+rm -rf projCert
+ls -ltr
+git add .
+git commit -m "website changes"
+git push https://github.com/kalyanramudu/demo1.git
+sudo vi simpleplaybook.yml
+sudo vi Dockerfile
+git add .
+git commit -m "kalyan"
+git push https://github.com/kalyanramudu/demo1.git
+ls -ltr
+sudo vi simpleplaybook.yml
+git add .
+git commit -m "kalyan"
+git push https://github.com/kalyanramudu/demo1.git

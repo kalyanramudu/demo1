@@ -114,3 +114,6 @@ cd .ssh
 ls -ltr
 cat id_rsa.pub
 sudo su -
+ssh -T kalyan@172.31.16.48
+ls -ltr
+ssh 172.31.16.48

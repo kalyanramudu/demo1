@@ -23,9 +23,7 @@
       apt: name=docker-ce state=present
     - name: start docker
       service: name=docker state=started
-    - name: get the docker file
-      git: repo=https://github.com/edureka-devops/projCert.git dest=/tmp/dockerdir
     - name: build the dockerfile
-      command: chdir=/tmp/dockerdir/docker build -t myimage:latest .
+      command: docker build -t myimage:latest .
     - name: run the dockerimage
       command: docker run -itd -P myimage:latest

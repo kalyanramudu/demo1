@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :q!
-|2,0,1657700468,,"q!"
+|2,0,1657702639,,"q!"
 :wq!
 |2,0,1657695758,,"wq!"
 
@@ -27,20 +27,34 @@
 # Registers:
 
 # File marks:
-'0  27  58  ~/simpleplaybook.yml
-|4,48,27,58,1657700468,"~/simpleplaybook.yml"
-'1  9  26  ~/Dockerfile
-|4,49,9,26,1657695758,"~/Dockerfile"
+'0  27  12  ~/simpleplaybook.yml
+|4,48,27,12,1657702639,"~/simpleplaybook.yml"
+'1  27  58  ~/simpleplaybook.yml
+|4,49,27,58,1657700468,"~/simpleplaybook.yml"
+'2  9  26  ~/Dockerfile
+|4,50,9,26,1657695758,"~/Dockerfile"
 
 # Jumplist (newest first):
+-'  27  12  ~/simpleplaybook.yml
+|4,39,27,12,1657702639,"~/simpleplaybook.yml"
 -'  27  58  ~/simpleplaybook.yml
 |4,39,27,58,1657700468,"~/simpleplaybook.yml"
+-'  1  0  ~/simpleplaybook.yml
+|4,39,1,0,1657700314,"~/simpleplaybook.yml"
 -'  1  0  ~/simpleplaybook.yml
 |4,39,1,0,1657700314,"~/simpleplaybook.yml"
 -'  9  26  ~/Dockerfile
 |4,39,9,26,1657695758,"~/Dockerfile"
 -'  9  26  ~/Dockerfile
 |4,39,9,26,1657695758,"~/Dockerfile"
+-'  9  26  ~/Dockerfile
+|4,39,9,26,1657695758,"~/Dockerfile"
+-'  9  26  ~/Dockerfile
+|4,39,9,26,1657695758,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1657695729,"~/Dockerfile"
+-'  1  0  ~/Dockerfile
+|4,39,1,0,1657695729,"~/Dockerfile"
 -'  1  0  ~/Dockerfile
 |4,39,1,0,1657695729,"~/Dockerfile"
 -'  1  0  ~/Dockerfile
@@ -49,11 +63,11 @@
 # History of marks within files (newest to oldest):
 
 > ~/simpleplaybook.yml
-	*	1657700465	0
-	"	27	58
-	^	27	59
-	.	27	59
-	+	27	59
+	*	1657702635	0
+	"	27	12
+	^	27	15
+	.	27	14
+	+	27	14
 
 > ~/Dockerfile
 	*	1657695755	0

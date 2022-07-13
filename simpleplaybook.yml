@@ -24,7 +24,7 @@
     - name: start docker
       service: name=docker state=started
     - name: get the docker file
-      git: repo=https://github.com/devops-trainer/dockerdemo.git dest=/home/kalyan/
+      git: repo=https://github.com/kalyanramudu/demo1.git dest=/home/kalyan/
     - name: build the dockerfile
       command: docker build -t myimage:latest .
     - name: run the dockerimage

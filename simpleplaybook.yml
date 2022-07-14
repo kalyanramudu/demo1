@@ -8,6 +8,7 @@
       command: chdir=/home/kalyan/ docker build -t myimage:latest .
     - name: run the dockerimage
       command: docker run -d --name kalyan -P myimage:latest
+      ignore_errors: true
       
   
 
@@ -15,6 +16,6 @@
       docker_container:
         name: kalyan
         state: absent
-      when: (result is failed) or (fatal: [172.31.81.42]: FAILED!)
+      when: (command execution failed) or (result is failed)
       ignore_errors: true
 

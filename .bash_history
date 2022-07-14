@@ -166,3 +166,5 @@ git push https://github.com/kalyanramudu/demo1.git
 sudo vi simpleplaybook.yml
 ls -ltr
 sudo vi simpleplaybook.yml
+ls -ltr
+sudo vi simpleplaybook.yml

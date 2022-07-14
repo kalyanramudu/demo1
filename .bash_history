@@ -205,3 +205,10 @@ git add .
 git commit -m "kalyan"
 ansible-playbook simpleplaybook.yml --syntax-check
 git push https://github.com/kalyanramudu/demo1.git
+git add .
+git commit -m "kalyan"
+git push https://github.com/kalyanramudu/demo1.git
+sudo vi simpleplaybook.yml
+git add .
+git commit -m "kalyan"
+git push https://github.com/kalyanramudu/demo1.git

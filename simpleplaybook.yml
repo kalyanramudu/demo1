@@ -17,7 +17,7 @@
       register: command_result
       ignore_errors: True
     - name: remove container because build failure in test server
-      command: docker rm kalyan
+      command: docker stop kalyan
       when:
         -  '"file not found" not in command_result.stdout'
         - '"No such" not in command_result.stdout'

@@ -14,13 +14,10 @@
       command: chdir=/home/kalyan/dockerdir docker build -t myimage:latest .
     - name: run the dockerimage
       command: docker run -d --name kalyan -P myimage:latest
-      register: command_result
+      register: result
       ignore_errors: True
     - name: remove container because build failure in test server
       command: docker stop kalyan
-      when:
-        -  '"file not found" not in command_result.stdout'
-        - '"No such" not in command_result.stdout'
-      
+      when: when: result is failed
       
   

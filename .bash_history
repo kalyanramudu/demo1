@@ -117,3 +117,34 @@ sudo su -
 ssh -T kalyan@172.31.16.48
 ls -ltr
 ssh 172.31.16.48
+ls -ltr
+vi simpleplaybook.yml
+ls -ltr
+vi simpleplaybook.yml
+git add .
+git commit -m "delete"
+git push https://github.com/kalyanramudu/demo1.git
+ls -ltr
+vi simpleplaybook.yml
+git add .
+gir comit -m "kalyan"
+git commit -m "kalyan"
+git push https://github.com/kalyanramudu/demo1.git
+ls -ltr
+sudo vi simpleplaybook.yml
+git add .
+git commit -m "delete"
+git push https://github.com/kalyanramudu/demo1.git
+sudo vi simpleplaybook.yml
+git add .
+git commit -m "kalyan"
+git push https://github.com/kalyanramudu/demo1.git
+sudo vi simpleplaybook.yml
+git add .
+git commit -m "kalyan"
+git push https://github.com/kalyanramudu/demo1.git
+ls -ltr
+sudo vi simpleplaybook.yml
+git add .
+git commit -m "kalyan"
+git push https://github.com/kalyanramudu/demo1.git

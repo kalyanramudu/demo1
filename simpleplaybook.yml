@@ -24,10 +24,24 @@
       command: chdir=/home/kalyan/dockerdir docker build -t myimage:latest .
     - name: run the dockerimage
       command: docker run -itd -P myimage:latest
-    - name: delete running container because build is failed
-      command: docker rm -f $(docker ps -a -q)
+    - name: Get running containers
+      docker_host_info:
+        containers: yes
+      register: docker_info
+    - name: Stop running containers
+      docker_container:
+        name: "{{ item }}"
+        state: stopped
+      loop: "{{ docker_info.containers | map(attribute='Id') | list }}"
       failed_when: >
         ("No such file or directory" in ret.stdout)
       ignore_errors: True
+    - name: Remove Stoped docker containers
+      shell: |
+        docker rm $(docker ps -a -q);
+      when: docker_info.containers != 0
+      ignore_errors: True
+
+
 
 

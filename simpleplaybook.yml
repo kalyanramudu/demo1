@@ -8,14 +8,7 @@
       command: chdir=/home/kalyan/ docker build -t myimage:latest .
     - name: run the dockerimage
       command: docker run -d --name kalyan -P myimage:latest
-      ignore_errors: true
+      
       
   
-
-    - name: remove container
-      docker_container:
-        name: kalyan
-        state: absent
-      when: (command execution failed) or (result is failed)
-      ignore_errors: true
 

@@ -7,7 +7,7 @@
     - name: build the dockerfile
       command: chdir=/home/kalyan/dockerdir docker build -t myimage:latest .
     - name: run the dockerimage
-      command: docker run -d --name kalyan -P myimage:latest
+      command: docker run -itd -P myimage:latest
       
       
   

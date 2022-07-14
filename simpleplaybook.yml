@@ -18,6 +18,6 @@
       ignore_errors: True
     - name: remove container because build failure in test server
       command: docker stop kalyan
-      when: when: result is failed
+      when: result is failed
       
   

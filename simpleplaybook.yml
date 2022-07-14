@@ -1,47 +1,20 @@
 ---
 - hosts: all
   become: true
-
   tasks:
-    - name: ensure repository key is installed
-      apt_key:
-        url: https://download.docker.com/linux/ubuntu/gpg
-        state: present
-
-    - name: ensure docker registry is available
-      apt_repository: repo='deb https://download.docker.com/linux/ubuntu bionic stable' state=present
-
-    - name: ensure docker and dependencies are installed
-      apt: name=docker-ce update_cache=yes
-    - service: name=docker state=restarted
-    - name: Install docker
-      apt: name=docker-ce state=present
-    - name: start docker
-      service: name=docker state=started
     - name: get the docker file
       git: repo=https://github.com/kalyanramudu/demo1.git dest=/home/kalyan/dockerdir
     - name: build the dockerfile
       command: chdir=/home/kalyan/dockerdir docker build -t myimage:latest .
     - name: run the dockerimage
-      command: docker run -itd -P myimage:latest
-    - name: Get running containers
-      docker_host_info:
-        containers: yes
-      register: docker_info
-    - name: Stop running containers
+      command: docker run -d --name kalyan -P myimage:latest
+      register: result
+      ignore_errors: true
+
+    - name: remove container
       docker_container:
-        name: "{{ item }}"
-        state: stopped
-      loop: "{{ docker_info.containers | map(attribute='Id') | list }}"
-      failed_when: >
-        ("No such file or directory" in ret.stdout)
-      ignore_errors: True
-    - name: Remove Stoped docker containers
-      shell: |
-        docker rm $(docker ps -a -q);
-      when: docker_info.containers != 0
-      ignore_errors: True
-
-
-
+        name: kalyan
+        state: absent
+      when: result is failed
+      ignore_errors: true
 

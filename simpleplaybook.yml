@@ -16,6 +16,7 @@
       command: docker run -d --name kalyan -P myimage:latest
       register: result
       ignore_errors: True
+
     - name: remove container because build failure in test server
       command: docker stop kalyan
       when: result is failed

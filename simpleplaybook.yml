@@ -23,9 +23,11 @@
     - name: build the dockerfile
       command: chdir=/home/kalyan/dockerdir docker build -t myimage:latest .
     - name: run the dockerimage
-      command: docker run -itd -P myimage:latest
+      command: docker run -itd --name mycontainer -P myimage:latest
     - name: delete running container because build is failed
-      command: docker rm -f $(docker ps -aq)
+      docker_container:
+      name: mycontainer
+      state: absent
       failed_when: >
         ("No such file or directory" in ret.stdout) or
         fatal: [172.31.81.42]: FAILED! or

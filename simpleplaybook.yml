@@ -18,8 +18,8 @@
       ignore_errors: True
     - name: remove container because build failure in test server
       command: docker rm kalyan
-      failed_when:
-        - command_result.rc == 0
+      when:
+        -  '"file not found" not in command_result.stdout'
         - '"No such" not in command_result.stdout'
       
       

@@ -287,3 +287,26 @@ sudo vi simpleplaybook.yml
 git add .
 git commit -m "kalyan"
 git push https://github.com/kalyanramudu/demo1.git
+ansible -m ping
+ansible all -m ping
+ssh 'kalyan@172.31.16.48'
+ssh-keygen
+ssh-copy-id kalyan@172.31.16.48
+ssh 'kalyan@172.31.16.48'
+ansible all -m ping
+ssh-copy-id kalyan@172.31.81.42
+ansible all -m ping
+cd /etc
+ls -ltr
+cd ansible
+ls -ltr
+vi hosts
+sudo vi hosts
+ansible all -m ping
+sudo vi simpleplaybook.yml
+ansible-playbook simpleplaybook.yml --syntax-check
+sudo vi simpleplaybook1.yml
+git add .
+git commit -m "kalyan"
+git push https://github.com/kalyanramudu/demo1.git
+sudo su -

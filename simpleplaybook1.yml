@@ -1,0 +1,16 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: stop current running container
+      command: docker stop kalyan
+      ignore_errors: yes
+    - name: removed stoped container
+      command: docker rm kalyan
+      ignore_errors: yes
+    - name: get the docker file
+      git: repo=https://github.com/kalyanramudu/demo1.git dest=/home/kalyan/dockerdir
+    - name: build the dockerfile
+      command: chdir=/home/kalyan/dockerdir docker build -t myimage:latest .
+    - name: run the dockerimage
+      command: docker run -d --name kalyan -P myimage:latest

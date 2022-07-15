@@ -1,5 +1,5 @@
 ---
-- hosts: 172.31.81.42
+- hosts: testserver
   become: true
   tasks:
     - name: stop current running container

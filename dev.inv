@@ -1,2 +1,4 @@
-[webserver]
+[testserver]
 172.31.81.42 ansible_user=kalyan
+[prodserver]
+172.31.16.48 ansible_user=kalyan

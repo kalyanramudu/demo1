@@ -282,3 +282,8 @@ sudo vi simpleplaybook.yml
 git add .
 git commit -m "kalyan"
 git push https://github.com/kalyanramudu/demo1.git
+sudo chmod 666 /var/run/docker.sock
+sudo vi simpleplaybook.yml
+git add .
+git commit -m "kalyan"
+git push https://github.com/kalyanramudu/demo1.git

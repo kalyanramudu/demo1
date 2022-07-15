@@ -327,3 +327,66 @@ sudo vi simpleplaybook.yml
 git add .
 git commit -m "kalyan"
 git push https://github.com/kalyanramudu/demo1.git
+cd /var/lib/jenkins/workspace/edureka
+ls -ltr
+sudo vi simpleplaybook.yml
+ls -ltr
+sudo vi dev.inv
+sudo vi simpleplaybook.yml
+sudo vi simpleplaybook1.yml
+git add .
+git commit -m "kalyan"
+git push https://github.com/kalyanramudu/demo1.git
+sudo vi simpleplaybook.yml
+sudo vi simpleplaybook2.yml
+sudo vi simpleplaybook1.yml
+git add .
+git commit -m "kalyan"
+git push https://github.com/kalyanramudu/demo1.git
+ansible-playbook simpleplaybook.yml --syntax-check
+ansible-playbook simpleplaybook1.yml --syntax-check
+ansible-playbook simpleplaybook.yml2 --syntax-check
+ansible-playbook simpleplaybook2.yml --syntax-check
+sudo vi simpleplaybook2.yml
+ansible-playbook simpleplaybook.yml2 --syntax-check
+ansible-playbook simpleplaybook2.yml --syntax-check
+sudo vi simpleplaybook2.yml
+ansible-playbook simpleplaybook2.yml --syntax-check
+sudo vi simpleplaybook2.yml
+sudo vi simpleplaybook1.yml
+sudo vi simpleplaybook2.yml
+ansible-playbook simpleplaybook2.yml --syntax-check
+git add .
+git commit -m "kalyan"
+git push https://github.com/kalyanramudu/demo1.git
+sudo vi simpleplaybook1.yml
+sudo vi simpleplaybook2.yml
+ansible-playbook simpleplaybook2.yml --syntax-check
+ansible-playbook simpleplaybook1.yml --syntax-check
+git add .
+git commit -m "kalyan"
+git push https://github.com/kalyanramudu/demo1.git
+sudo vi simpleplaybook1.yml
+sudo vi simpleplaybook2.yml
+git add .
+git commit -m "kalyan"
+git push https://github.com/kalyanramudu/demo1.git
+sudo vi simpleplaybook1.yml
+git add .
+git commit -m "kalyan"
+git push https://github.com/kalyanramudu/demo1.git
+sudo vi simpleplaybook1.yml
+git add .
+git push https://github.com/kalyanramudu/demo1.git
+git commit -m "kalyan"
+git push https://github.com/kalyanramudu/demo1.git
+sudo vi simpleplaybook1.yml
+git add .
+git commit -m "kalyan"
+git push https://github.com/kalyanramudu/demo1.gitkalyanramudu
+git push https://github.com/kalyanramudu/demo1.git
+
+git push https://github.com/kalyanramudu/demo1.git
+sudo vi simpleplaybook1.yml
+ansible-playbook simpleplaybook.yml --syntax-check
+ansible-playbook simpleplaybook1.yml --syntax-check

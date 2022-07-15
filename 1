@@ -3,8 +3,8 @@
   become: true
   tasks:
     - name: stop current running container
-      command: docker stop kalyan
-      ignore_errors: yesi
+     command: docker stop kalyan
+     ignore_errors: yesi
     - name: removed stoped container
       command: docker rm kalyan
       ignore_errors: yes

@@ -11,6 +11,6 @@
     - name: get the docker file
       git: repo=https://github.com/kalyanramudu/demo1.git dest=/home/kalyan/dockerdir
     - name: build the dockerfile
-      command: chdir=/home/kalyan/ docker build -t myimage:latest .
+      command: chdir=/home/kalyan/dockerdir docker build -t myimage:latest .
     - name: run the dockerimage
       command: docker run -d --name kalyan -p 9090:80 myimage:latest
